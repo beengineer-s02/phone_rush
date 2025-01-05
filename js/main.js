@@ -349,7 +349,7 @@ function collision() {
   playerBox.updateWorldMatrix(true, true);
   const playerBoundingBox = new Box3().setFromObject(playerBox);
   helper = new Box3Helper(playerBoundingBox, 0xff0000);
-  // scene.add(helper);
+  scene.add(helper);
 
   // 障害物との衝突
   enemy_list = enemy_list.filter((enemy) => {
