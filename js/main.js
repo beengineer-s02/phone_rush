@@ -402,6 +402,7 @@ function animate() {
     // ジャンプ関数の実行
     jump();
     // 衝突判定関数の実行
+    collision();
     // ここに追加
     // カメラの移動
     camera.position.set(0, 8, player.position.z + 10);
