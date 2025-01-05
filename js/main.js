@@ -299,7 +299,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // プレイヤーの移動
 function move() {
-  player.position.z -= 1;
+  player.position.z -= 1.8;
  
    if (gamma > 20 && !isMoving) {
     if (index == 0 || index == 1) {
