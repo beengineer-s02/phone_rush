@@ -40,7 +40,7 @@ let helper;
 let player;
 let playerBox;
 let player_v_y = 0;
-const initial_velocity = 1.5;
+const initial_velocity = 1;
 let isJumping = false;
 let isMoving = false;
 let box_X;
